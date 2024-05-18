@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bootstrap demo</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Лови момент</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Переключатель навигации">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+          	   <ul class="navbar-nav mr-4">
+            	  <li class="nav-item">
+            	    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+            	  </li>
+            	  <li class="nav-item">
+            	    <a class="nav-link" href="#about">Обо мне</a>
+            	  </li>
+            	  <li class="nav-item">
+            	    <a class="nav-link" href="#">Команда</a>
+            	  </li>
+            	  <li class="nav-item">
+            	    <a class="nav-link" href="#portfolio">Портфолио</a>
+            	  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacts">Контакты</a>
+                </li>
+          	   </ul>
+            </div>
+          </div>
+        </nav>
+     
+        <div class="carusel">
+          <div id="carouselExampleAutoplaying " class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/PL1A0031.jpg" class="d-block w-100" alt="..." width="800" height="400" role="img" preserveAspectRatio="xMidYMid slice">
+                   <p id="text">Мечтай!</p>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/PL1A9613.jpg" class="d-block w-100" alt="..." width="800" height="400" role="img" preserveAspectRatio="xMidYMid slice">
+                  <p id="text">Поверь!</p>
+                </div>
+                <div class="carousel-item">
+                 <img src="img/PL1A9741.jpg" class="d-block w-100" alt="..." width="800" height="400" role="img" preserveAspectRatio="xMidYMid slice">
+                 <p id="opacity"></p>
+                 <p id="text">Действуй!</p>
+                </div>
+              </div>
+          </div>
+        </div>
+    </header>
+
+
+
+    <div class="menu">
+      <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item" aria-current="page"><a href="#"> Home </a></li>
+          <li class="breadcrumb-item active" > Library </li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="about" id="about"><a name="about"></a>
+      <div class="container">
+        <h1 class="text-center">Обо мне</h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <img id="foto" align="center" src="img/foto.jpg" class="img-fluid" alt="Жизнь через объъектив">
+            
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-12 desc">
+            <h3><font color="#3AC1EF">Просто Мари</font></h3>
+            <p>
+              Что такое фотография? Это момент времени запечатленный в виде изображения (снимка). Это эмоции пойманные в картинку. Это пережитые впечатления, ваше настроение, это вы в какой то период жизни. Это то, что позволяет возвращаться к важным моментам в любое другое время. Это память.
+            </p>
+            <h4><font color="#3AC1EF">А вы знали что?</font></h4>
+            <p> 
+              Первое устойчивое фотографическое изображение было создано в 1822 году французским изобретателем Жозефом Нисефором Ньепсом, но оно не сохранилось до наших дней. Датой изобретения технологии по решению IX Международного конгресса научной и прикладной фотографии считается 7 января 1839 года, когда Франсуа Араго сделал доклад о дагеротипии на заседании Французской академии наук.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="portfolio" class="portfolio">
+      <h1 class="text-center"><a name="portfolio">Портфолио</a></h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img align="center" src="img/PL1A9939.jpg" class="img-fluid">
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img align="center" src="img/PL1A9947.jpg" class="img-fluid">
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img align="center" src="img/PL1A9958.jpg" class="img-fluid">
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img align="center" src="img/PL1A9960.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <footer>
+    <div class="container">
+      <hr class="bg-danger border-5 border-top border-warning"/>
+      <hr class="bg-danger border-5 border-top border-warning"/>
+      <h1 class="text-center"><a name="contacts"></a>Контакты:</h1>
+      <div class="row align-items-start">
+          <div class="col-2 col-sm-12"> 
+          </div>
+          <div class="col-8 col-sm-12">
+              <div class="row">
+                  <div class="col-md-6 col-sm-3"><p class="text-end">Адрес:</p></div>
+                  <div class="col-md-6 col-sm-9"><p>Сыктывкар<br>ул. Первомайская, д. 85</p></div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-sm-3"><p class="text-end">Номер:</p></div>
+                  <div class="col-md-6 col-sm-9"><p>+7-904-222-22-22</p></div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-sm-3"><p class="text-end">Номер:</p></div>
+                  <div class="col-md-6 col-sm-9"><p>+7-904-222-22-22</p></div>
+              </div>
+          </div>
+          <div class="col-2 col-sm-12">
+          </div>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>
